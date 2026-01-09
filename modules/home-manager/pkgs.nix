@@ -13,7 +13,6 @@
     # filetypes
     zip
     unzip
-    7zip
     unrar-free
   
     # theming
