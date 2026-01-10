@@ -11,12 +11,6 @@
   xresources.properties = {
     "Xcursor.size" = 24;
   };
-  
-  programs.git = {
-     enable = true;
-     userName = "Frostenk";
-     userEmail = "sonicfan302011@gmail.com";
-  };
 
   home.stateVersion = "25.11";
 }
