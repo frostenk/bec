@@ -8,7 +8,7 @@
     fastfetch
     htop
     wezterm
-    wget
+    rofi
 
     # filetypes
     zip
@@ -27,10 +27,8 @@
     file-roller
 
     # bloat.
-    cowsay
-    tree
-    gnumake
-    glow
+    gnome-screenshot
+    networkmanagerapplet
 
     # extensions
     nemo-fileroller
