@@ -11,7 +11,7 @@
   }; 
 
   outputs = { self, nixpkgs, awesome-flake, home-manager, ... }@inputs: {
-    nixosConfigurations.cademunz = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.catnetwork = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
          ./configuration.nix
@@ -31,7 +31,7 @@
            home-manager.useGlobalPkgs = true;
            home-manager.useUserPackages = true;
 
-           home-manager.users.tarrey = import ./home.nix;
+           home-manager.users.frostenk = import ./home-manager/home.nix;
          }
       ];
     };
