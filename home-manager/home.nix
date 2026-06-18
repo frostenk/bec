@@ -17,12 +17,6 @@
     "Xcursor.size" = 24;
   };
 
-  programs.home-manager.enable = true;
-  
-  programs.git = {
-     enable = true;
-     userName = "Frostenk";
-     userEmail = "sonicfan302011@gmail.com";
-  };
+  programs.home-manager.enable = true
 
 } 
